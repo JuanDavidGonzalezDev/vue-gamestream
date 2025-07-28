@@ -1,4 +1,4 @@
-import { reactive, ReactiveEffect } from "vue";
+import { reactive } from "vue";
 
 export const modalStore = reactive({
     state: {
