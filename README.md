@@ -1,35 +1,16 @@
-# gamestream
+# Vue GameStream
 
-This template should help get you started developing with Vue 3 in Vite.
+Frontend construido con **Vue 3** para consumir una API de streaming de juegos o contenidos relacionados. Este proyecto muestra cómo conectarse a un backend externo y renderizar datos dinámicamente de forma simple y clara.
 
-## Recommended IDE Setup
+## 🧰 Tecnologías
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3 (Composition API)
 
-## Customize configuration
+## 📁 Instalación
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
+git clone https://github.com/JuanDavidGonzalezDev/vue-gamestream.git
+cd vue-gamestream
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+npm run dev         # para desarrollo
+npm run build       # para producción
